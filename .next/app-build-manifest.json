@@ -15,21 +15,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/london-fire-smoke/page.js"
-    ],
-    "/barcelona-mediterranean-feast/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/barcelona-mediterranean-feast/page.js"
-    ],
-    "/tokyo-umami-journey/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tokyo-umami-journey/page.js"
-    ],
-    "/success/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/success/page.js"
     ]
   }
 }

@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/barcelona-mediterranean-feast/page": "app/barcelona-mediterranean-feast/page.js",
-  "/success/page": "app/success/page.js",
   "/london-fire-smoke/page": "app/london-fire-smoke/page.js"
 }

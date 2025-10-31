@@ -28,11 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${bebasNeue.variable}`}>
-        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        {children}
         <Analytics />
         <Script
           src="//code.tidio.co/xmibet2czey83fs5ijpb8mqqsptjxmtu.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
       </body>
     </html>
