@@ -455,79 +455,69 @@ export default function LondonFireSmokeClient() {
                 {/* Itinerary */}
                 <section>
                   <h2 className="font-[family-name:var(--font-bebas)] text-3xl text-foreground mb-6">Itinerary</h2>
+                  <div className="text-lg text-foreground/80 leading-relaxed space-y-4 mb-6">
+                    <p>
+                      You'll start the tour at an iconic venue, famous for its experimental cocktails. Here your chef-guide will talk you through the next stop, and you'll also get a chance to meet your fellow guests for the evening. You'll have a choice of 3x different special smoky cocktails, adapted just for feastwalk guests.
+                    </p>
+                  </div>
                   <Accordion type="single" collapsible className="space-y-2">
                     <AccordionItem value="item-1" className="bg-card border border-border rounded-sm">
                       <AccordionTrigger className="px-4 py-3 text-left">
                         <div className="flex items-center gap-3">
-                          <span className="text-2xl">🍸</span>
+                          <span className="text-2xl">🔥</span>
                           <div>
-                            <div className="font-semibold">Meet Your Host — Cocktail</div>
-                            <div className="text-sm text-muted-foreground">Your chef-guide welcomes you with a smoky signature serve and sets the tone for the night.</div>
+                            <div className="font-semibold">Stop 1</div>
+                            <div className="text-sm text-muted-foreground">Our first stop is designed to give us an insight into some different styles of cooking with flames at one of London's top fusion eateries.</div>
                           </div>
                         </div>
                       </AccordionTrigger>
                       <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        Your chef-guide welcomes you with a smoky signature serve and sets the tone for the night.
+                        Our first stop is designed to give us an insight into some different styles of cooking with flames at one of London's top fusion eateries. You'll have a range of sharing platters, all cooked on flames, and get some insights into flame cooking can create so many different flavours.
                       </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-2" className="bg-card border border-border rounded-sm">
                       <AccordionTrigger className="px-4 py-3 text-left">
                         <div className="flex items-center gap-3">
-                          <span className="text-2xl">🔥</span>
+                          <span className="text-2xl">🥩</span>
                           <div>
-                            <div className="font-semibold">Stop 1 — Starter: Ignite Your Palate</div>
-                            <div className="text-sm text-muted-foreground">A bold first plate inspired by London's street grills: crunch, char, and heat.</div>
+                            <div className="font-semibold">Stop 2</div>
+                            <div className="text-sm text-muted-foreground">A short walk and we end up at our main course destination - a staple of flame cooking in London.</div>
                           </div>
                         </div>
                       </AccordionTrigger>
                       <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        A bold first plate inspired by London's street grills: crunch, char, and heat.
+                        A short walk and we end up at our main course destination - a staple of flame cooking in London. This internationally renowned restaurant serves the highest quality food, and the chefs exercise some of the most creative techniques to bring out the flavour. We'll have a range of dishes here to showcase the kitchen teams talents.
                       </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-3" className="bg-card border border-border rounded-sm">
                       <AccordionTrigger className="px-4 py-3 text-left">
                         <div className="flex items-center gap-3">
-                          <span className="text-2xl">🥩</span>
+                          <span className="text-2xl">👨‍🍳</span>
                           <div>
-                            <div className="font-semibold">Stop 2 — Main: The Heart of the Feast</div>
-                            <div className="text-sm text-muted-foreground">Full portion, zero compromises. Seasonal, slow-cooked, or charcoal-kissed.</div>
+                            <div className="font-semibold">Stop 3</div>
+                            <div className="text-sm text-muted-foreground">Behind the food is a working kitchen, and here we'll take a few minutes to step into a fast-paced working kitchen and see the flames in action.</div>
                           </div>
                         </div>
                       </AccordionTrigger>
                       <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        Full portion, zero compromises. Seasonal, slow-cooked, or charcoal-kissed.
+                        Behind the food is a working kitchen, and here we'll take a few minutes to step into a fast-paced working kitchen and see the flames in action. You'll get to see the chefs close up and maybe even try your hand at a few techniques yourself.
                       </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-4" className="bg-card border border-border rounded-sm">
                       <AccordionTrigger className="px-4 py-3 text-left">
                         <div className="flex items-center gap-3">
-                          <span className="text-2xl">👨‍🍳</span>
+                          <span className="text-2xl">🍰</span>
                           <div>
-                            <div className="font-semibold">Exclusive Access — Behind the Pass</div>
-                            <div className="text-sm text-muted-foreground">Step into a working kitchen; taste something straight from the pass.</div>
+                            <div className="font-semibold">Stop 4</div>
+                            <div className="text-sm text-muted-foreground">It's hard to imagine smokiness and desserts go hand in hand - but we end our tour at another world-famous establishment that has mastered their craft.</div>
                           </div>
                         </div>
                       </AccordionTrigger>
                       <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        Step into a working kitchen; taste something straight from the pass.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-5" className="bg-card border border-border rounded-sm">
-                      <AccordionTrigger className="px-4 py-3 text-left">
-                        <div className="flex items-center gap-3">
-                          <span className="text-2xl">🥃</span>
-                          <div>
-                            <div className="font-semibold">Dessert & Nightcap — The Ember Fade</div>
-                            <div className="text-sm text-muted-foreground">A rich, smoky finish paired with something strong or a crafted NA option.</div>
-                          </div>
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        A rich, smoky finish paired with something strong or a crafted NA option.
+                        It's hard to imagine smokiness and desserts go hand in hand - but we end our tour at another world-famous establishment that has mastered their craft, and here we'll sample a sweet plus a nightcap to finish the feast.
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
