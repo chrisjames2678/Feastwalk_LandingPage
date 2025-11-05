@@ -455,72 +455,72 @@ export default function LondonFireSmokeClient() {
                 {/* Itinerary */}
                 <section>
                   <h2 className="font-[family-name:var(--font-bebas)] text-3xl text-foreground mb-6">Itinerary</h2>
-                  <div className="text-lg text-foreground/80 leading-relaxed space-y-4 mb-6">
-                    <p>
-                      You'll start the tour at an iconic venue, famous for its experimental cocktails. Here your chef-guide will talk you through the next stop, and you'll also get a chance to meet your fellow guests for the evening. You'll have a choice of 3x different special smoky cocktails, adapted just for feastwalk guests.
-                    </p>
+                  <div className="space-y-4">
+                    {/* Stop 1 - Meet Your Host & Welcome Cocktail */}
+                    <div className="bg-card border border-border rounded-sm p-6">
+                      <div className="flex items-start gap-4">
+                        <span className="text-3xl flex-shrink-0">🍸</span>
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-xl text-foreground mb-2">Stop 1 — Meet Your Host & Welcome Cocktail</h3>
+                          <p className="text-foreground/80 leading-relaxed">
+                            You'll start the tour at an iconic venue, famous for its experimental cocktails. Here your chef-guide will talk you through the next stop, and you'll also get a chance to meet your fellow guests for the evening. You'll have a choice of 3x different special smoky cocktails, adapted just for feastwalk guests.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Stop 2 - Starter: Ignite Your Palate */}
+                    <div className="bg-card border border-border rounded-sm p-6">
+                      <div className="flex items-start gap-4">
+                        <span className="text-3xl flex-shrink-0">🔥</span>
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-xl text-foreground mb-2">Stop 2 — Starter: Ignite Your Palate</h3>
+                          <p className="text-foreground/80 leading-relaxed">
+                            Our first stop is designed to give us an insight into some different styles of cooking with flames at one of London's top fusion eateries. You'll have a range of sharing platters, all cooked on flames, and get some insights into how flame cooking can create so many different flavours.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Stop 3 - Main: The Heart of the Feast */}
+                    <div className="bg-card border border-border rounded-sm p-6">
+                      <div className="flex items-start gap-4">
+                        <span className="text-3xl flex-shrink-0">🥩</span>
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-xl text-foreground mb-2">Stop 3 — Main: The Heart of the Feast</h3>
+                          <p className="text-foreground/80 leading-relaxed">
+                            A short walk and we end up at our main course destination — a staple of flame cooking in London. This internationally renowned restaurant serves the highest quality food, and the chefs exercise some of the most creative techniques to bring out the flavour. We'll have a range of dishes here to showcase the kitchen team's talents.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Stop 4 - Exclusive Access: Behind the Pass */}
+                    <div className="bg-card border border-border rounded-sm p-6">
+                      <div className="flex items-start gap-4">
+                        <span className="text-3xl flex-shrink-0">👨‍🍳</span>
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-xl text-foreground mb-2">Stop 4 — Exclusive Access: Behind the Pass</h3>
+                          <p className="text-foreground/80 leading-relaxed">
+                            Behind the food is a working kitchen, and here we'll take a few minutes to step into a fast-paced working kitchen and see the flames in action. You'll get to see the chefs close up and maybe even try your hand at a few techniques yourself.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Stop 5 - Dessert & Nightcap */}
+                    <div className="bg-card border border-border rounded-sm p-6">
+                      <div className="flex items-start gap-4">
+                        <span className="text-3xl flex-shrink-0">🥃</span>
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-xl text-foreground mb-2">Stop 5 — Dessert & Nightcap</h3>
+                          <p className="text-foreground/80 leading-relaxed">
+                            It's hard to imagine smokiness and desserts go hand in hand — but we end our tour at another world-famous establishment that has mastered their craft, and here we'll sample a sweet plus a nightcap to finish the feast.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <Accordion type="single" collapsible className="space-y-2">
-                    <AccordionItem value="item-1" className="bg-card border border-border rounded-sm">
-                      <AccordionTrigger className="px-4 py-3 text-left">
-                        <div className="flex items-center gap-3">
-                          <span className="text-2xl">🔥</span>
-                          <div>
-                            <div className="font-semibold">Stop 1</div>
-                            <div className="text-sm text-muted-foreground">Our first stop is designed to give us an insight into some different styles of cooking with flames at one of London's top fusion eateries.</div>
-                          </div>
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        Our first stop is designed to give us an insight into some different styles of cooking with flames at one of London's top fusion eateries. You'll have a range of sharing platters, all cooked on flames, and get some insights into flame cooking can create so many different flavours.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-2" className="bg-card border border-border rounded-sm">
-                      <AccordionTrigger className="px-4 py-3 text-left">
-                        <div className="flex items-center gap-3">
-                          <span className="text-2xl">🥩</span>
-                          <div>
-                            <div className="font-semibold">Stop 2</div>
-                            <div className="text-sm text-muted-foreground">A short walk and we end up at our main course destination - a staple of flame cooking in London.</div>
-                          </div>
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        A short walk and we end up at our main course destination - a staple of flame cooking in London. This internationally renowned restaurant serves the highest quality food, and the chefs exercise some of the most creative techniques to bring out the flavour. We'll have a range of dishes here to showcase the kitchen teams talents.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-3" className="bg-card border border-border rounded-sm">
-                      <AccordionTrigger className="px-4 py-3 text-left">
-                        <div className="flex items-center gap-3">
-                          <span className="text-2xl">👨‍🍳</span>
-                          <div>
-                            <div className="font-semibold">Stop 3</div>
-                            <div className="text-sm text-muted-foreground">Behind the food is a working kitchen, and here we'll take a few minutes to step into a fast-paced working kitchen and see the flames in action.</div>
-                          </div>
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        Behind the food is a working kitchen, and here we'll take a few minutes to step into a fast-paced working kitchen and see the flames in action. You'll get to see the chefs close up and maybe even try your hand at a few techniques yourself.
-                      </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-4" className="bg-card border border-border rounded-sm">
-                      <AccordionTrigger className="px-4 py-3 text-left">
-                        <div className="flex items-center gap-3">
-                          <span className="text-2xl">🍰</span>
-                          <div>
-                            <div className="font-semibold">Stop 4</div>
-                            <div className="text-sm text-muted-foreground">It's hard to imagine smokiness and desserts go hand in hand - but we end our tour at another world-famous establishment that has mastered their craft.</div>
-                          </div>
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent className="px-4 pb-3 text-foreground/80">
-                        It's hard to imagine smokiness and desserts go hand in hand - but we end our tour at another world-famous establishment that has mastered their craft, and here we'll sample a sweet plus a nightcap to finish the feast.
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
                 </section>
 
                 {/* What's Included / Not Included */}
