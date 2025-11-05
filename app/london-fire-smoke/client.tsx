@@ -456,7 +456,7 @@ export default function LondonFireSmokeClient() {
                 <section>
                   <h2 className="font-[family-name:var(--font-bebas)] text-3xl text-foreground mb-6">Itinerary</h2>
                   <div className="space-y-4">
-                    {/* Stop 1 - Meet Your Host & Welcome Cocktail */}
+                    {/* Stop 1 - Meet Your Host & Welcome Cocktail - Updated itinerary */}
                     <div className="bg-card border border-border rounded-sm p-6">
                       <div className="flex items-start gap-4">
                         <span className="text-3xl flex-shrink-0">🍸</span>
